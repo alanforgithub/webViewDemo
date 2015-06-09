@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/merchant_popContainer"
+    android:background="@drawable/register_bd"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <ImageView
+        android:layout_marginLeft="6dp"
+        android:id="@+id/merchant_back"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/backicon"/>
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="商户中心"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:textSize="28sp"
+       />
+        
+        </RelativeLayout>
+        
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+        <TextView
+            android:id="@+id/merchant_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交审核"
+            android:layout_alignParentRight="true"
+            android:textColor="@drawable/changetextcolor_selector"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:layout_marginRight="10dp"
+            />
+        
+        </RelativeLayout>
+        
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    
+        
+    <!-- 企业名称 -->
+            <LinearLayout
+                
+                android:id="@+id/merchant_ln1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="企业名称:"/>
+            <EditText
+                android:imeOptions="flagNoExtractUi"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/merchant_companyname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_editbd"
+                android:hint=""/>
+            
+            </LinearLayout>
+        
+        <!-- 法人代表 -->
+            <LinearLayout
+                android:layout_alignLeft="@id/merchant_ln1"
+                android:layout_alignRight="@id/merchant_ln1"
+                android:id="@+id/merchant_ln2"
+                android:layout_below="@+id/merchant_ln1"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="法人代表:"/>
+            <EditText
+                android:imeOptions="flagNoExtractUi"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/merchant_corporate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_editbd"
+                android:hint=""/>
+            
+            </LinearLayout>
+            
+            
+            <!-- 联系电话 -->
+            <!--  <LinearLayout
+                android:id="@+id/merchant_ln3"
+                android:layout_below="@+id/merchant_ln2"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="联系电话:"/>
+            <EditText
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/merchant_phonenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_editbd"
+                android:hint=""/>
+            
+            </LinearLayout>-->
+            
+            <TextView
+                 android:id="@+id/merchant_ln3"
+                android:layout_below="@+id/merchant_ln2"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/merchant_phonenum"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="联系电话:"/>
+            <EditText
+                android:imeOptions="flagNoExtractUi"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/merchant_ln2"
+                android:layout_toRightOf="@id/merchant_ln3"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/merchant_phonenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_editbd"
+                android:hint=""/>
+            
+            
+            <!-- 邮箱 -->
+           <!--  <LinearLayout
+                android:id="@+id/merchant_ln4"
+                android:layout_below="@+id/merchant_ln3"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/merchant_ln1"
+                android:layout_alignRight="@id/merchant_ln1"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="邮箱:"/>
+            <EditText
+                android:layout_marginLeft="75dp"
+                android:paddingLeft="5dp"
+                
+                android:id="@+id/merchant_emailadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_editbd"
+                android:hint=""/>
+            
+            </LinearLayout>--> 
+            
+            
+            <TextView
+                 android:id="@+id/merchant_ln4"
+                android:layout_below="@+id/merchant_ln3"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/merchant_emailadd"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="邮箱:"/>
+            <EditText
+                android:imeOptions="flagNoExtractUi"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/merchant_phonenum"
+                android:layout_toRightOf="@id/merchant_ln4"
+                android:id="@+id/merchant_emailadd"
+                android:layout_alignLeft="@+id/merchant_phonenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_editbd"
+                android:hint=""/>
+            
+            
+            <!-- 所属行业 -->
+            <LinearLayout
+                android:id="@+id/merchant_ln5"
+                android:layout_below="@+id/merchant_emailadd"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="所属行业:"/>
+            <EditText
+                android:imeOptions="flagNoExtractUi"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/merchant_industry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_editbd"
+                android:hint=""/>
+            
+            </LinearLayout>
+            
+            <!-- 注册地址 -->
+            <LinearLayout
+                android:id="@+id/merchant_ln6"
+                android:layout_below="@+id/merchant_ln5"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="注册地址:"/>
+            <EditText
+                android:imeOptions="flagNoExtractUi"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/merchant_regaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_editbd"
+                android:hint=""/>
+            
+            </LinearLayout>
+            
+            
+            
+            <!-- 营业执照 -->
+            <LinearLayout
+                android:id="@+id/merchant_ln7"
+                android:layout_below="@+id/merchant_ln6"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="营业执照:"/>
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/merchant_addimg"
+                android:layout_width="265dp"
+                android:layout_height="230dp"
+                android:src="@drawable/addmerchant"
+                android:layout_marginBottom="8dp"
+                />
+            
+            </LinearLayout>
+            
+            
+            
+            
+        
+		
+       
+        </RelativeLayout>
+        </ScrollView>
+</LinearLayout>

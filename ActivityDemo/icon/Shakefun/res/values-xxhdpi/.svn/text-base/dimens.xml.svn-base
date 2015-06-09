@@ -1,0 +1,12 @@
+<resources>
+
+      <!-- 首页后台中奖公告 top-->
+    <dimen name="act_main_bulletinboard_top">3dp</dimen>
+    <!-- 中奖公告 left -->
+    <dimen name="act_main_bulletinboard_left">13dp</dimen>
+    <!-- 中奖内容 top -->
+    <dimen name="act_main_content_top">10dp</dimen>
+    <!-- 中奖内容 left -->
+    <dimen name="act_main_content_left">32dp</dimen>
+
+</resources>

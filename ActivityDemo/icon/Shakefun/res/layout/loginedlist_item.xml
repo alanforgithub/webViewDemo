@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:gravity="center"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="400dp"
+         android:background="@drawable/prize_loginedbd"
+        android:layout_height="100dp">
+        
+        <TextView
+            android:id="@+id/logined_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="价值200元味多美优惠券1张"/>
+        
+        
+        <TextView
+            android:id="@+id/logined_duihuanquan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logined_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:text="兑换券"/>
+        
+        
+        <TextView
+            android:id="@+id/logined_list1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/corner_logined_listitem"/>
+        
+      <!--   <TextView
+            android:id="@+id/logined_list2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有效期至"
+            android:layout_below="@+id/logined_list1"
+            android:layout_alignParentRight="true"
+             android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginTop="3dp"
+             android:layout_marginRight="22dp"/>
+             
+            
+        <TextView
+            android:id="@+id/logined_list3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015-05-01"
+            android:layout_below="@+id/logined_list2"
+            android:layout_alignParentRight="true"
+             android:textColor="@color/white"
+            android:textSize="18sp"
+             android:layout_marginRight="3dp"/>--> 
+        
+        </RelativeLayout>
+    
+
+</LinearLayout>

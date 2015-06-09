@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="120" android:drawable="@drawable/time321_00000" />
+   <item android:duration="120" android:drawable="@drawable/time321_00001" />
+   <item android:duration="120" android:drawable="@drawable/time321_00002" />
+   <item android:duration="120" android:drawable="@drawable/time321_00003" />
+   <item android:duration="120" android:drawable="@drawable/time321_00004" />
+   <item android:duration="120" android:drawable="@drawable/time321_00005" />
+   <item android:duration="120" android:drawable="@drawable/time321_00006" />
+   <item android:duration="120" android:drawable="@drawable/time321_00007" />
+   <item android:duration="120" android:drawable="@drawable/time321_00008" />
+   <item android:duration="120" android:drawable="@drawable/time321_00009" />
+   <item android:duration="120" android:drawable="@drawable/time321_00010" />
+   <item android:duration="120" android:drawable="@drawable/time321_00011" />
+   <item android:duration="120" android:drawable="@drawable/time321_00012" />
+  <!--   <item android:duration="120" android:drawable="@drawable/time321_00013" />
+   <item android:duration="120" android:drawable="@drawable/time321_00014" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00015" />
+   <item android:duration="120" android:drawable="@drawable/time321_00016" />
+  <!--  <item android:duration="120" android:drawable="@drawable/time321_00017" />
+   <item android:duration="120" android:drawable="@drawable/time321_00018" />
+   <item android:duration="120" android:drawable="@drawable/time321_00019" />
+   <item android:duration="120" android:drawable="@drawable/time321_00020" />
+   <item android:duration="120" android:drawable="@drawable/time321_00021" />
+   <item android:duration="120" android:drawable="@drawable/time321_00022" />
+   <item android:duration="120" android:drawable="@drawable/time321_00023" />
+   <item android:duration="120" android:drawable="@drawable/time321_00024" />
+   <item android:duration="120" android:drawable="@drawable/time321_00025" />
+   <item android:duration="120" android:drawable="@drawable/time321_00026" />
+   <item android:duration="120" android:drawable="@drawable/time321_00027" />
+   <item android:duration="120" android:drawable="@drawable/time321_00028" />
+   <item android:duration="120" android:drawable="@drawable/time321_00029" />
+   <item android:duration="120" android:drawable="@drawable/time321_00030" />
+   <item android:duration="120" android:drawable="@drawable/time321_00031" />
+   <item android:duration="120" android:drawable="@drawable/time321_00032" />
+   <item android:duration="120" android:drawable="@drawable/time321_00033" />
+   <item android:duration="120" android:drawable="@drawable/time321_00034" />
+   <item android:duration="120" android:drawable="@drawable/time321_00035" />
+   <item android:duration="120" android:drawable="@drawable/time321_00036" />
+   <item android:duration="120" android:drawable="@drawable/time321_00037" />
+   <item android:duration="120" android:drawable="@drawable/time321_00038" />
+   <item android:duration="120" android:drawable="@drawable/time321_00039" />
+   <item android:duration="120" android:drawable="@drawable/time321_00040" />
+   <item android:duration="120" android:drawable="@drawable/time321_00041" />
+   <item android:duration="120" android:drawable="@drawable/time321_00042" />
+   <item android:duration="120" android:drawable="@drawable/time321_00043" />
+   <item android:duration="120" android:drawable="@drawable/time321_00044" />
+   <item android:duration="120" android:drawable="@drawable/time321_00045" />
+   <item android:duration="120" android:drawable="@drawable/time321_00046" />
+   <item android:duration="120" android:drawable="@drawable/time321_00047" />
+   <item android:duration="120" android:drawable="@drawable/time321_00048" />
+   <item android:duration="120" android:drawable="@drawable/time321_00049" />
+   <item android:duration="120" android:drawable="@drawable/time321_00050" />
+   <item android:duration="120" android:drawable="@drawable/time321_00051" />
+   <item android:duration="120" android:drawable="@drawable/time321_00052" />
+   <item android:duration="120" android:drawable="@drawable/time321_00053" />
+   <item android:duration="120" android:drawable="@drawable/time321_00054" />
+   <item android:duration="120" android:drawable="@drawable/time321_00055" />
+   <item android:duration="120" android:drawable="@drawable/time321_00056" />
+   <item android:duration="120" android:drawable="@drawable/time321_00057" />
+   <item android:duration="120" android:drawable="@drawable/time321_00058" />
+   <item android:duration="120" android:drawable="@drawable/time321_00059" />
+   <item android:duration="120" android:drawable="@drawable/time321_00060" />
+   <item android:duration="120" android:drawable="@drawable/time321_00061" />
+   <item android:duration="120" android:drawable="@drawable/time321_00062" />
+   <item android:duration="120" android:drawable="@drawable/time321_00063" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00064" />
+   <item android:duration="120" android:drawable="@drawable/time321_00065" />
+   <item android:duration="120" android:drawable="@drawable/time321_00066" />
+   <item android:duration="120" android:drawable="@drawable/time321_00067" /> 
+   <item android:duration="120" android:drawable="@drawable/time321_00068" />
+   <item android:duration="120" android:drawable="@drawable/time321_00069" />
+   <item android:duration="120" android:drawable="@drawable/time321_00070" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00071" />
+   <item android:duration="120" android:drawable="@drawable/time321_00072" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00073" />
+   <item android:duration="120" android:drawable="@drawable/time321_00074" />
+   <item android:duration="120" android:drawable="@drawable/time321_00075" />
+   <item android:duration="120" android:drawable="@drawable/time321_00076" />
+   <item android:duration="120" android:drawable="@drawable/time321_00077" />
+   <item android:duration="120" android:drawable="@drawable/time321_00078" />
+   <item android:duration="120" android:drawable="@drawable/time321_00079" />
+   <item android:duration="120" android:drawable="@drawable/time321_00080" />
+   <item android:duration="120" android:drawable="@drawable/time321_00081" />
+   <item android:duration="120" android:drawable="@drawable/time321_00082" />
+   <item android:duration="120" android:drawable="@drawable/time321_00083" />
+   <item android:duration="120" android:drawable="@drawable/time321_00084" />
+   <item android:duration="120" android:drawable="@drawable/time321_00085" />
+   <item android:duration="120" android:drawable="@drawable/time321_00086" />
+   <item android:duration="120" android:drawable="@drawable/time321_00087" />
+   <item android:duration="120" android:drawable="@drawable/time321_00088" />
+   <item android:duration="120" android:drawable="@drawable/time321_00089" />
+   <item android:duration="120" android:drawable="@drawable/time321_00090" />
+  <!--   <item android:duration="120" android:drawable="@drawable/time321_00091" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00092" />
+  <!--   <item android:duration="120" android:drawable="@drawable/time321_00093" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00094" />
+   <item android:duration="120" android:drawable="@drawable/time321_00095" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00096" />--> 
+   <item android:duration="120" android:drawable="@drawable/time321_00097" />
+  <!--  <item android:duration="120" android:drawable="@drawable/time321_00098" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00099" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00100" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00101" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00102" />--> 
+   <item android:duration="120" android:drawable="@drawable/time321_00103" />
+  <!--   <item android:duration="120" android:drawable="@drawable/time321_00104" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00105" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00106" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00107" />
+  <!--  <item android:duration="120" android:drawable="@drawable/time321_00108" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00109" />
+  <item android:duration="120" android:drawable="@drawable/time321_00110" /> 
+   <item android:duration="120" android:drawable="@drawable/time321_00111" />
+   <item android:duration="120" android:drawable="@drawable/time321_00112" />
+   <item android:duration="120" android:drawable="@drawable/time321_00113" />
+   <item android:duration="120" android:drawable="@drawable/time321_00114" />
+  <!--  <item android:duration="120" android:drawable="@drawable/time321_00115" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00116" />
+  <!--  <item android:duration="120" android:drawable="@drawable/time321_00117" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00118" />
+ <!--  <item android:duration="120" android:drawable="@drawable/time321_00119" /> --> 
+   <item android:duration="120" android:drawable="@drawable/time321_00120" />
+   <item android:duration="120" android:drawable="@drawable/time321_00121" />
+ <!--    <item android:duration="120" android:drawable="@drawable/time321_00122" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00123" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00124" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00125" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00126" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00127" />
+   <item android:duration="120" android:drawable="@drawable/time321_00128" />
+ <!--    <item android:duration="120" android:drawable="@drawable/time321_00129" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00130" />
+   <item android:duration="120" android:drawable="@drawable/time321_00131" />
+   <item android:duration="120" android:drawable="@drawable/time321_00132" />
+ <!--    <item android:duration="120" android:drawable="@drawable/time321_00133" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00134" />
+   <item android:duration="120" android:drawable="@drawable/time321_00135" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00136" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00137" />
+   <item android:duration="120" android:drawable="@drawable/time321_00138" />
+   <item android:duration="120" android:drawable="@drawable/time321_00139" />
+   <item android:duration="120" android:drawable="@drawable/time321_00140" />
+   <item android:duration="120" android:drawable="@drawable/time321_00141" />
+ <!--    <item android:duration="120" android:drawable="@drawable/time321_00142" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00143" />
+  <!--   <item android:duration="120" android:drawable="@drawable/time321_00144" />
+   <item android:duration="120" android:drawable="@drawable/time321_00145" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00146" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00147" />
+   <item android:duration="120" android:drawable="@drawable/time321_00148" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00149" />
+  <!--   <item android:duration="120" android:drawable="@drawable/time321_00150" />
+   <item android:duration="120" android:drawable="@drawable/time321_00151" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00152" />
+   <item android:duration="120" android:drawable="@drawable/time321_00153" />
+   <item android:duration="120" android:drawable="@drawable/time321_00154" />
+ <!--    <item android:duration="120" android:drawable="@drawable/time321_00155" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00156" />
+ <!--   <item android:duration="120" android:drawable="@drawable/time321_00157" /> -->
+   <item android:duration="120" android:drawable="@drawable/time321_00158" />
+   <item android:duration="120" android:drawable="@drawable/time321_00159" />
+   <item android:duration="120" android:drawable="@drawable/time321_00160" />
+ <!--    <item android:duration="120" android:drawable="@drawable/time321_00161" />-->
+   <item android:duration="120" android:drawable="@drawable/time321_00162" />
+  <item android:duration="120" android:drawable="@drawable/time321_00163" />
+   <item android:duration="120" android:drawable="@drawable/time321_00000" /> 
+   <!-- <item android:duration="120" android:drawable="@drawable/time321_00164" />
+   <item android:duration="120" android:drawable="@drawable/time321_00165" />-->
+ <!--    <item android:duration="120" android:drawable="@drawable/time321_00166" />
+   <item android:duration="120" android:drawable="@drawable/time321_00167" />
+   <item android:duration="120" android:drawable="@drawable/time321_00168" />
+   <item android:duration="120" android:drawable="@drawable/time321_00169" />
+   <item android:duration="120" android:drawable="@drawable/time321_00170" />
+   <item android:duration="120" android:drawable="@drawable/time321_00171" />
+   <item android:duration="120" android:drawable="@drawable/time321_00172" />
+   <item android:duration="120" android:drawable="@drawable/time321_00173" />
+   <item android:duration="120" android:drawable="@drawable/time321_00174" />
+   <item android:duration="120" android:drawable="@drawable/time321_00175" />
+   <item android:duration="120" android:drawable="@drawable/time321_00176" />-->
+    
+    
+    
+    
+
+</animation-list>

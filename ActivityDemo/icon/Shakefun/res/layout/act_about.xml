@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_two" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/copyright_two" />
+
+    <ImageView
+        android:id="@+id/about_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/icon_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/about_back"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_weight="3"
+                android:scrollbars="vertical" >
+
+                <TextView
+                    android:id="@+id/aboutact_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="        2015年2月12日, 一个全新的传播平台进入了全球华人媒体圈,之后快速进入了华文媒体人的国际视野，它有一个响亮的名称——中华微视（CHINAVTV）。中华微视是服务于全球华人文化娱乐生活的新媒体(CHINAVTV)。 是一个能够充分体现新媒体特点并集合资讯、社交、商广多位一体化的云平台。 \n        中华微视肩负着“全球华人都在看”的期愿与目标，通过传媒资源云整合，完成了一个完整的全媒体架构。已从大陆走到台湾，从北美走到欧洲，从欧洲走向了世界。 \n        中华微视摇来摇趣APP是：衣食乐游的互动体验社区，城市品牌的精准推广窗口，全球华人的联动共享平台。通过创新的服务模式面向“有文化旅游宣传需求的城市政府、有世界最时尚的科技产品发布需求、有精准广告推送需求的企业、有社群文化消费互动的年青受众”来创造平台价值。开创了一屏实现“传播中华文化、服务品牌集群、联接全球生活”的文化与商业结合、阅视与娱乐融合。"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
