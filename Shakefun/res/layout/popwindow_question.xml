@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:id="@+id/popquest_ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+    
+    
+    <TextView
+        android:id="@+id/quest_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="标题"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textColor="@drawable/textblue_tored"
+        android:textSize="16sp"
+        android:text="答案1"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textColor="@drawable/textblue_tored"
+        android:textSize="16sp"
+        android:text="答案2"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/answer3"
+        android:layout_width="wrap_content"
+        android:clickable="true"
+        android:textColor="@drawable/textblue_tored"
+        android:layout_height="wrap_content"
+        
+        android:textSize="16sp"
+        android:text="答案3"/>
+    
+    </LinearLayout>
+    
+    
+  <!--  <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/popwindowque_ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="恭喜你"/>
+    <TextView
+        android:id="@+id/popquest_prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="获得XXX200元优惠券一张"/>
+    
+        
+       
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册为正式用户才可以领取哦!"/>
+        <TextView
+            android:id="@+id/popquest_login"
+            android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="去登录"/>
+        
+        
+        
+        </LinearLayout>
+    
+     </LinearLayout> --> 
+     
+     <LinearLayout
+         android:id="@+id/popquest_lnisguanzhu"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:visibility="gone"
+         android:orientation="vertical">
+   
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关注摇来摇趣官方微博"/>
+         
+         
+         </LinearLayout>
+     
+
+</RelativeLayout>

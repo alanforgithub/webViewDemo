@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <!--  <TextView
+        android:id="@+id/popisprize_dia"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="很遗憾，本次未中奖"/>-->
+        
+        <ImageView
+            android:id="@+id/popisprize_dia"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/sorrynoprize"
+            />
+        
+    
+     <LinearLayout
+        android:id="@+id/popwindowque_ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:text="恭喜你"/>
+    <TextView
+        android:id="@+id/popquest_prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:text="获得XXX200元优惠券一张"/>
+    <ImageView
+        android:id="@+id/popquest_prizetrue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/prizetrue"/>
+        
+       
+        
+    <LinearLayout
+        android:id="@+id/isprize_lnislogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="注册为正式用户才可以领取哦!"/>
+        <TextView
+            android:id="@+id/popquest_login"
+            android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize="18sp"
+        android:textColor="@drawable/textblue_tored"
+        android:text="登录领奖"/>
+        
+       <TextView
+           android:id="@+id/popuest_haslogin"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:clickable="true"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="@drawable/textblue_tored"
+        android:text="去领奖"/>
+        
+        
+        </LinearLayout>
+    
+     </LinearLayout>
+    
+
+</LinearLayout>

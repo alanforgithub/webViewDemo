@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bd"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <ImageView
+        android:layout_marginLeft="8dp"
+        android:id="@+id/boardrules_back"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/backicon"/>
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中奖公告"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:textSize="28sp"
+       />
+        
+        </RelativeLayout>
+    
+    
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView
+                android:textSize="18sp"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="摇奖规则:"/>
+            
+            
+        <TextView
+            android:layout_marginTop="5dp"
+        android:id="@+id/board_rules"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:lineSpacingExtra="5dp"
+        android:text="1、所有摇奖问题随机出现在节目中，参与摇奖者只有正常观看节目时，才能参与摇奖活动。
+2、在观看节目时，屏幕出现摇奖字幕并出现三二一倒计时，即可进入摇奖环节。
+3、根据节目内容，填写问题的正确答案，才有资格参与摇奖机会。
+4、如果回答错误、或者放弃回答问题，都将无法参与摇奖机会。
+5、在回答正确的答题者中，将会随机摇出中奖者。
+6、中奖者即刻进入引导页面，留下中奖者正确个人信息及有效地址，以备邮寄奖品。
+7、本次节目摇奖机会只随节目的播放而存在。"/> 
+
+        
+        
+        
+            <TextView
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="其它摇奖规则:"/>
+            
+            
+        <TextView
+            android:layout_marginTop="5dp"
+        android:id="@+id/board_rules"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:lineSpacingExtra="5dp"
+        android:text="1、若因信息错误、无效等造成开奖后15个工作日无法与中奖者取得联系，则视中奖者自动放弃该奖品。
+2、在法律允许的范围内，根据活动的进展情况，可能对摇奖活动的规则/条款作出适当修改/调整。
+3、本奖品不可折现，亦不可转让，奖品以实物为准（图片仅供参考）。
+4、主办方摇来摇趣对摇奖活动保留法定范围内最终解释权。"/> 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </LinearLayout>
+        </ScrollView>
+    
+    
+    
+
+</LinearLayout>

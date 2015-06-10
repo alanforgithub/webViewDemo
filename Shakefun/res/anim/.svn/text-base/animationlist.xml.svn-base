@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+    <animation-list android:oneshot="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="60" android:drawable="@drawable/ylyq0001" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0002" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0003" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0004" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0005" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0006" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0007" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0008" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0009" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0010" />
+  <!--  <item android:duration="60" android:drawable="@drawable/ylyq0011" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0012" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0013" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0014" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0015" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0016" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0017" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0018" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0019" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0020" /> --> 
+    <item android:duration="60" android:drawable="@drawable/ylyq0021" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0022" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0023" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0025" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0026" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0027" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0028" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0029" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0030" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0031" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0032" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0033" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0034" />
+  <!--    <item android:duration="60" android:drawable="@drawable/ylyq0035" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0036" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0037" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0038" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0039" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0040" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0041" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0042" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0043" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0044" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0045" />-->
+    <item android:duration="60" android:drawable="@drawable/ylyq0046" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0047" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0048" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0049" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0050" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0051" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0052" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0053" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0054" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0055" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0056" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0057" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0058" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0059" />
+   <!--   <item android:duration="60" android:drawable="@drawable/ylyq0060" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0061" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0062" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0063" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0064" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0065" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0066" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0067" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0068" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0069" />-->
+    <item android:duration="60" android:drawable="@drawable/ylyq0070" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0071" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0072" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0073" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0074" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0075" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0076" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0077" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0078" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0079" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0080" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0081" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0082" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0083" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0084" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0085" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0086" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0087" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0088" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0089" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0090" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0091" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0092" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0093" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0094" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0095" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0096" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0097" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0098" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0099" />
+    <item android:duration="60" android:drawable="@drawable/ylyq0001" />
+</animation-list> 
+    
+    
+
