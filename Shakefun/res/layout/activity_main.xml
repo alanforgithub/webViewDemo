@@ -69,7 +69,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/bottom_part"
         android:layout_toLeftOf="@id/main_iv1" >
 
         <ImageView
@@ -87,15 +86,16 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:layout_marginRight="40dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:src="@drawable/icon_brand" />
 
         <ImageView
             android:id="@+id/suprise_img"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_alignLeft="@id/main_re_brand"
             android:layout_below="@id/travel_img"
+            android:layout_marginTop="-30dp"
             android:layout_marginRight="30dp"
             android:src="@drawable/icon_surprise" />
     </RelativeLayout>
