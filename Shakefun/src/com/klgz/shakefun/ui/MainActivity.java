@@ -67,9 +67,9 @@ public class MainActivity extends Activity implements OnClickListener,
 		AMapLocationListener, Runnable, IJsonVerson {
 
 	private TextView main_address;
-	private ImageView main_cate, main_coorper;
+	private ImageView main_coorper;
 	private ImageView v_show_img, suprise_img;
-	private ImageView main_brand, main_iv1, travel_img;
+	private ImageView main_iv1, travel_img;
 	private ImageView mine_img, main_re_brand, main_re_zhibo, place_img;
 
 	BitmapFactory.Options opts;
@@ -77,13 +77,7 @@ public class MainActivity extends Activity implements OnClickListener,
 	private AMapLocation aMapLocation;// 用于判断定位超时
 	private Handler handler = new Handler();
 	private Typeface typeface;
-	private List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
-	/**
-	 * 摇美食，掉馅饼，爱旅行，看直播，聚娱乐，台北，享生活，品牌秀
-	 */
-	private TextView main_firstname, main_secondname, main_thirdname,
-			main_forthname, main_fifthname, main_sixname, main_seventhname,
-			main_eightname;
+	private List<Map<String, Object>> requestList = new ArrayList<Map<String, Object>>();
 	// 中奖公告
 	private TextView main_changwords;
 	// 推送标志
@@ -105,12 +99,11 @@ public class MainActivity extends Activity implements OnClickListener,
 
 			if (!mobNetInfo.isConnected() && !wifiNetInfo.isConnected()) {
 				Log.i("tag", "unconnect");
-				// unconnect network
 				Toast.makeText(getApplicationContext(), "暂无网络连接", 1).show();
 			} else {
 				// Toast.makeText(getApplicationContext(), "you网络", 1).show();
 				// connect network
-				if (iscoonnet && list.size() == 0) {
+				if (iscoonnet && requestList.size() == 0) {
 					getData();
 					// iscoonnet = false;
 					// Toast.makeText(getApplicationContext(), "you网络",
@@ -207,10 +200,10 @@ public class MainActivity extends Activity implements OnClickListener,
 			break;
 
 		case R.id.suprise_img:// 摇美食
-			if (list.size() > 0) {
+			if (requestList.size() > 0) {
 				Intent cateIntent = new Intent(MainActivity.this,
 						HorizonListAct.class);
-				cateIntent.putExtra("id", list.get(0).get("id").toString());
+				cateIntent.putExtra("id", requestList.get(0).get("id").toString());
 				startActivity(cateIntent);
 
 			} else {
@@ -232,10 +225,10 @@ public class MainActivity extends Activity implements OnClickListener,
 
 			break;
 		case R.id.v_show_img:// 掉馅饼
-			if (list.size() > 0) {
+			if (requestList.size() > 0) {
 				Intent dianoIntent = new Intent(MainActivity.this,
 						HorizonListAct.class);
-				dianoIntent.putExtra("id", list.get(1).get("id").toString());
+				dianoIntent.putExtra("id", requestList.get(1).get("id").toString());
 				startActivity(dianoIntent);
 
 			} else {
@@ -244,10 +237,10 @@ public class MainActivity extends Activity implements OnClickListener,
 
 			break;
 		case R.id.place_img:// 地方台
-			if (list.size() > 0) {
+			if (requestList.size() > 0) {
 				Intent dianboIntent = new Intent(MainActivity.this,
 						HorizonListAct.class);
-				dianboIntent.putExtra("id", list.get(2).get("id").toString());
+				dianboIntent.putExtra("id", requestList.get(2).get("id").toString());
 				startActivity(dianboIntent);
 
 			}
@@ -260,10 +253,10 @@ public class MainActivity extends Activity implements OnClickListener,
 			startActivity(zhiboIntent);
 			break;
 		case R.id.travel_img:// 爱旅行
-			if (list.size() > 0) {
+			if (requestList.size() > 0) {
 				Intent plaIntent = new Intent(MainActivity.this,
 						HorizonListAct.class);
-				plaIntent.putExtra("id", list.get(5).get("id").toString());
+				plaIntent.putExtra("id", requestList.get(5).get("id").toString());
 				startActivity(plaIntent);
 
 			}
@@ -278,12 +271,11 @@ public class MainActivity extends Activity implements OnClickListener,
 		// }
 		// break;
 		case R.id.main_re_brand:// 品牌秀
-			if (list.size() > 0) {
+			if (requestList.size() > 0) {
 
 				Intent brandiIntent = new Intent(MainActivity.this,
 						HorizonListAct.class);
-				brandiIntent.putExtra("id", list.get(7).get("id").toString());
-				;
+				brandiIntent.putExtra("id", requestList.get(7).get("id").toString());
 				startActivity(brandiIntent);
 			}
 
@@ -397,14 +389,13 @@ public class MainActivity extends Activity implements OnClickListener,
 			// .getAdCode());
 			String str = location.getCity();
 			String str2 = str.replace("市", "");
-			// main_address.setTypeface(typeface);
 			main_address.setText(str2);
-			if (!TextUtils.isEmpty(str)) {
-				main_sixname.setText(str2);
-				stopLocation();
-			} else {
-				main_sixname.setText("北京");
-			}
+			// if (!TextUtils.isEmpty(str)) {
+			// main_sixname.setText(str2);
+			// stopLocation();
+			// } else {
+			// main_sixname.setText("北京");
+			// }
 
 		}
 
@@ -435,14 +426,7 @@ public class MainActivity extends Activity implements OnClickListener,
 		}
 		String d = data.toString();
 
-		// 测试打印
-		// System.out.println("------------"+d);
-
-		// String url = Constant.LOGIN;
-		// String url =
-		// "http://192.168.0.112:8087/appUser!request.action?data=";
 		String url = Constant.KE_BASICURL + "channel!request.action";
-		// String url = "http://218.241.7.206:8087/channel!request.action";
 		Map<String, String> maps = new HashMap<String, String>();
 		maps.put("data", d);
 
@@ -453,12 +437,9 @@ public class MainActivity extends Activity implements OnClickListener,
 			public void getResult(Status status, List<String> datas) {
 				if (status.getCode() == 200) {
 					String infos = datas.get(0);
-					// System.out.println("--------infos------"+infos);
-					// Toast.makeText(getApplicationContext(), "getchanleinfo",
-					// 1).show();
 					DialogUtils.closeProgressDialog();
 
-					setUI(infos);
+					// setUI(infos);
 
 				} else {
 					Toast.makeText(getApplicationContext(), status.getMsg(),
@@ -473,14 +454,17 @@ public class MainActivity extends Activity implements OnClickListener,
 				DialogUtils.closeProgressDialog();
 				Toast.makeText(getApplicationContext(), "网络出错",
 						Toast.LENGTH_SHORT).show();
-
 			}
-
 		});
 		engine.getData(url, maps, Method.POST);
 
 	}
 
+	/**
+	 * 老版本，在服务器上获取UI信息，目前已不用
+	 * 
+	 * @param result
+	 */
 	private void setUI(String result) {
 
 		JSONObject jsonObject;
@@ -506,35 +490,32 @@ public class MainActivity extends Activity implements OnClickListener,
 				map.put("name", object.get("name"));
 				map.put("appSeat", object.get("appSeat"));
 				map.put("approval", object.get("approval"));
-				list.add(map);
+				requestList.add(map);
 
 			}
 			// System.out.println("-----------list----"+list.toString());
-			BitmapUtils bitmapUtils = new BitmapUtils(getApplicationContext());
+			// BitmapUtils bitmapUtils = new
+			// BitmapUtils(getApplicationContext());
 
+			// //
 			// System.out.println("---------firstname-----"+list.get(2).get("name").toString());
-			main_firstname.setText(list.get(0).get("name").toString());
-			main_secondname.setText(list.get(1).get("name").toString());
-			main_thirdname.setText(list.get(2).get("name").toString());
-			main_forthname.setText(list.get(3).get("name").toString());
-
-			main_fifthname.setText(list.get(4).get("name").toString());
-			// main_sixname.setText(list.get(5).get("name").toString());
-			main_seventhname.setText(list.get(6).get("name").toString());
-			// 注释 2015/5/18 feng 防止数组越界异常
-			main_eightname.setText(list.get(7).get("name").toString());
-
-			// System.out.println(" ----------imagurl--------"+list.get(0).get("imageUrl").toString());
+			// main_firstname.setText(list.get(0).get("name").toString());
+			// main_secondname.setText(list.get(1).get("name").toString());
+			// main_thirdname.setText(list.get(2).get("name").toString());
+			// main_forthname.setText(list.get(3).get("name").toString());
 			//
-
-			bitmapUtils.display(main_cate, list.get(0).get("imageUrl")
-					.toString());
-			// 注释 2015/5/18 feng 防止数组越界异常
-			bitmapUtils.display(main_brand, list.get(7).get("imageUrl")
-					.toString());
+			// main_fifthname.setText(list.get(4).get("name").toString());
+			// // main_sixname.setText(list.get(5).get("name").toString());
+			// main_seventhname.setText(list.get(6).get("name").toString());
+			// // 注释 2015/5/18 feng 防止数组越界异常
+			// main_eightname.setText(list.get(7).get("name").toString());
+			//
+			// Log.i(" ----------imagurl--------"+list.get(0).get("imageUrl").toString());
+			// //
+			// bitmapUtils.display(main_cate, list.get(0).get("imageUrl")
+			// .toString());
 
 		} catch (JSONException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

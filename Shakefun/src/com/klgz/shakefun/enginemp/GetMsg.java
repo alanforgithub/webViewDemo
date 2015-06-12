@@ -49,9 +49,6 @@ public class GetMsg extends BaseEngine{
 			String result;
 			if (200 == status.getCode()) {
 				result = jsonObject.getString("result");
-				
-//				System.out.println("-------result------"+result.toString());
-				
 				Log.d("taobaole", "result>" + result);
 			} else {
 				result = "";
